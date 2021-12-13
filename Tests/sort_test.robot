@@ -80,7 +80,7 @@ SortLow
     Open Browser    https://www.saucedemo.com/    Chrome
     # set window size
     Maximize Browser Window
-    Set Selenium Speed    1
+    Set Selenium Speed    0
     # check if in login page
     Page Should Contain Element    login-button
     # input username
